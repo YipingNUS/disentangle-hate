@@ -6,17 +6,17 @@ Accompanying code for the manuscript "Disentangling Hate Across Target Identitie
 
 **Individual models' predictions:** The following 3 notebooks use each model to predict on `HateCheck` and `GPT-HateCheck` dataset, calculate the accuracy, target identity bias, and perform debias experiment.
 
-- [HateBERT Evaluation.ipynb](HateBERT Evaluation.ipynb)
-- [ToxDect-roberta Evaluation.ipynb](ToxDect-roberta Evaluation.ipynb)
-- [Perspective API Evaluation.ipynb](Perspective API Evaluation.ipynb)
+- [HateBERT Evaluation.ipynb](<HateBERT Evaluation.ipynb>)
+- [ToxDect-roberta Evaluation.ipynb](<ToxDect-roberta Evaluation.ipynb>)
+- [Perspective API Evaluation.ipynb](<Perspective API Evaluation.ipynb>)
 
-[RQ1 Minimum Set Bias.ipynb](RQ1 Minimum Set Bias.ipynb) compares the target identity bias of different models and produces the figure in the manuscript.
+[RQ1 Minimum Set Bias.ipynb]('RQ1 Minimum Set Bias.ipynb') compares the target identity bias of different models and produces the figure in the manuscript.
 
-[Emotion Identification.ipynb](Emotion Identification.ipynb) extracts emotions from `GPT-HateCheck` and performs analysis.
+[Emotion Identification.ipynb](<Emotion Identification.ipynb>) extracts emotions from `GPT-HateCheck` and performs analysis.
 
-[Stereotype Analysis.ipynb](Stereotype Analysis.ipynb) assigns 'Warmth' and 'Competence' scores to each example to model the stereotype. It also plots the correlation between the location in the semantic space and models' accuracy.
+[Stereotype Analysis.ipynb](<Stereotype Analysis.ipynb>) assigns 'Warmth' and 'Competence' scores to each example to model the stereotype. It also plots the correlation between the location in the semantic space and models' accuracy.
 
-[Stereotype Identification.ipynb](Stereotype Identification.ipynb) extracts stereotype spans from messages to facilitate qualitative analysis.
+[Stereotype Identification.ipynb](<Stereotype Identification.ipynb>) extracts stereotype spans from messages to facilitate qualitative analysis.
 
 ## Running the code
 
