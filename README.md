@@ -10,7 +10,7 @@ Accompanying code for the manuscript "Disentangling Hate Across Target Identitie
 - [ToxDect-roberta Evaluation.ipynb](<ToxDect-roberta Evaluation.ipynb>)
 - [Perspective API Evaluation.ipynb](<Perspective API Evaluation.ipynb>)
 
-[RQ1 Minimum Set Bias.ipynb]('RQ1 Minimum Set Bias.ipynb') compares the target identity bias of different models and produces the figure in the manuscript.
+[RQ1 Minimum Set Bias.ipynb](<RQ1 Minimum Set Bias.ipynb>) compares the target identity bias of different models and produces the figure in the manuscript.
 
 [Emotion Identification.ipynb](<Emotion Identification.ipynb>) extracts emotions from `GPT-HateCheck` and performs analysis.
 
