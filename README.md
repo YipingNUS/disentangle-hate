@@ -4,6 +4,8 @@ Accompanying code for the manuscript:
 
 Jin, Y., Wanner, L., & Koya, A.M. (2024). [Disentangling Hate Across Target Identities](http://arxiv.org/abs/2410.10332). arXiv preprint arXiv:2410.10332.
 
+![Overview of our approach.](imgs/fig1.jpg)
+
 ## Description of Repo
 
 **Individual models' predictions:** The following 3 notebooks use each model to predict on `HateCheck` and `GPT-HateCheck` dataset, calculate the accuracy, target identity bias, and perform debias experiment.
@@ -18,9 +20,15 @@ Jin, Y., Wanner, L., & Koya, A.M. (2024). [Disentangling Hate Across Target Iden
 
 [RQ1 Minimum Set Bias.ipynb](<RQ1 Minimum Set Bias.ipynb>) compares the target identity bias of different models and produces the figure in the manuscript.
 
+![Target identity mention bias of all models.](imgs/all_target_identity_bias.jpg)
+
 [Emotion Identification.ipynb](<Emotion Identification.ipynb>) extracts emotions from `GPT-HateCheck` and performs analyses.
 
+![Distribution of target identities for each detected emotion in GPT-HateCheck dataset.](imgs/non-hateful-emotions.jpg)
+
 [Stereotype Analysis.ipynb](<Stereotype Analysis.ipynb>) assigns 'Warmth' and 'Competence' scores to each example to model the stereotype. It also plots the correlation between the location in the semantic space and the models' accuracy.
+
+![Stereotype centroid for each target identity.](imgs/stereotypes-centroid-sbic.jpg)
 
 [Stereotype Identification.ipynb](<Stereotype Identification.ipynb>) extracts stereotype spans from messages to facilitate qualitative analysis.
 
