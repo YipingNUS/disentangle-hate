@@ -1,4 +1,4 @@
-# Accompanying code for ARR August 2024 Manuscript
+# Disentangling Hate Across Target Identities
 
 Accompanying code for the manuscript: 
 
@@ -27,8 +27,6 @@ Jin, Y., Wanner, L., & Koya, A.M. (2024). [Disentangling Hate Across Target Iden
 ![Distribution of target identities for each detected emotion in GPT-HateCheck dataset.](imgs/non-hateful-emotions.jpg)
 
 [Stereotype Analysis.ipynb](<Stereotype Analysis.ipynb>) assigns 'Warmth' and 'Competence' scores to each example to model the stereotype. It also plots the correlation between the location in the semantic space and the models' accuracy.
-
-![Stereotype centroid for each target identity.](imgs/stereotypes-centroid-sbic.jpg)
 
 [Stereotype Identification.ipynb](<Stereotype Identification.ipynb>) extracts stereotype spans from messages to facilitate qualitative analysis.
 
