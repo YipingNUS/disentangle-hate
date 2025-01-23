@@ -2,7 +2,7 @@
 
 Accompanying code for the manuscript: 
 
-Jin, Y., Wanner, L., & Koya, A.M. (2024). [Disentangling Hate Across Target Identities](http://arxiv.org/abs/2410.10332). arXiv preprint arXiv:2410.10332.
+Jin, Y., Wanner, L., & Koya, A.M. (2024). [What the #?*!: Disentangling Hate Across Target Identities](http://arxiv.org/abs/2410.10332). To appear in NAACL 2025.
 
 ![Overview of our approach.](imgs/fig1.jpg)
 
@@ -65,10 +65,10 @@ You need to create a paid OpenAI account to use GPT-4o. Performing emotion ident
 
 ```
 @article{jin2024disentangling,
-  title={Disentangling hate across target identities},
+  title={What the #?*!: Disentangling Hate Across Target Identities},
   author={Jin, Yiping and Wanner, Leo and Koya, Aneesh Moideen},
   month={oct},
   year={2024},
-  journal={arXiv preprint arXiv:2405.11912}
+  journal={To appear in NAACL 2025}
 }
 ```
